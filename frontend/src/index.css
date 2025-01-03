@@ -1,0 +1,28 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Defaults */
+  body {
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    line-height: 1.6;
+    background-color: #cf8a8a; /* Soft gray background */
+  }
+  
+  /* Anchor Styling */
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:focus, a:active {
+    outline: none;
+    text-decoration: underline;
+  }
